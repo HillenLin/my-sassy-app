@@ -20,5 +20,9 @@ h6 { font-size: $fs-h6;}
 
 .title { font-size: $fs-h1;}
 .sub-title { font-size: $fs-h3;}
+button{
+    //Disable double-tap “zoom” option in browser on touch devices
+    touch-action: manipulation;
+}
 
 
