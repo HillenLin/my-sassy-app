@@ -3,6 +3,7 @@ import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { MatSelectModule } from '@angular/material/select';
 import { HttpClientModule } from '@angular/common/http';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
@@ -13,6 +14,7 @@ describe('AppComponent', () => {
       imports: [
         FormsModule,
         MatSelectModule,
+        MatProgressBarModule,
         HttpClientModule
       ]
     }).compileComponents();
