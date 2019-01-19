@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "./variables.scss";
+
+
+body, html{
+    font-size: $fs-base;
+    color: $clr-base;
+}
+:root {
+    font-size: $fs-base;
+}
+
+h1 { font-size: $fs-h1;}
+h2 { font-size: $fs-h2;}
+h3 { font-size: $fs-h3;}
+h4 { font-size: $fs-h4;}
+h5 { font-size: $fs-h5;}
+h6 { font-size: $fs-h6;}
+
+.title { font-size: $fs-h1;}
+.sub-title { font-size: $fs-h3;}
+
+

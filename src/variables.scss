@@ -1,0 +1,45 @@
+//--------------------------------------------------------------------------
+//shared function lists
+
+/* base font size - applied at body / html level */
+$fs-base: 1rem;
+/* heading font sizes */
+$fs-h1: 2.25rem;
+$fs-h2: 2rem;
+$fs-h3: 1.75rem;
+$fs-h4: 1.5rem;
+$fs-h5: 1.25rem;
+$fs-h6: 1.125rem;
+
+$space-main: 1.875rem;
+$space-small: 0.3125rem;
+
+/* base font size - applied at body / html level */
+$clr-base: black;
+$clr-primary: #28a745;
+$clr-secondary: #17a2b8;
+$clr-secondary-shadow: #03A9F4;
+$clr-border-outter: #d4cfcf;
+$clr-bg-outter: #e9ecef;
+$clr-danger: #dc3545;
+$clr-white: white;
+
+//--------------------------------------------------------------------------
+//shared function lists
+$btn-radius: 0.3125rem;
+@mixin my-radius-mixin($some-number) {
+    border-radius: $some-number;
+    /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+    -webkit-border-radius: $some-number; 
+    /* Firefox 1-3.6 */
+    -moz-border-radius: $some-number; 
+    /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+    border-radius: $some-number;
+
+}
+//--------------------------------------------------------------------------
+// shared class lists
+.container-shodow{
+    box-shadow:0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)
+}
+
